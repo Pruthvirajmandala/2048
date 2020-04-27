@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2048</title>
+    <link rel="stylesheet" href="./assets/css/plugins.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="contains-everything">
+
+        <div class="contain">
+
+            <div class="game-container pt-5">    
+                
+                <div class="d-flex justify-content-between py-4 header">
+                    <h1 class="text-center">2048</h1>
+                    <div class="score">
+                        <h1>0</h1>
+                    </div>
+                </div>
+                <ul class="mt-2 grid-container">
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                    <li class="grid-element"><span></span></li>
+                </ul>
+    
+                <a href="#" class="btn mt-5 d-block restart">
+                    New Game
+                </a>
+    
+            </div>
+
+            <div class="game-container pt-5">   
+                
+                <div class="d-flex justify-content-between py-4 header">
+                    <h1 class="text-center">2nd Player</h1>
+                </div>
+                
+                <ul class="mt-2 grid-container secondPlayer">
+                    <li class="grid-element">
+                        <span index-position='0'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='1'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='2'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='3'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>  
+                    <li class="grid-element">
+                        <span index-position='4'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='5'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='6'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='7'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='8'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='9'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='10'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='11'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='12'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='13'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='14'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>
+                    <li class="grid-element">
+                        <span index-position='15'>
+                            <span class="number"></span>
+                            <a href="#" class="two insertBtn">2</a> 
+                            <a href="#" class="four insertBtn">4</a> 
+                        </span>
+                    </li>                    
+                </ul>
+
+                <a href="#" class="btn mt-5 d-block confirm">
+                    Thank You
+                </a>
+    
+            </div>
+
+        </div>
+
+        
+    </div>
+    
+    <script src="./assets/js/functions.js"></script>
+    
+</body>
+</html>
